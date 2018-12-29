@@ -41,7 +41,6 @@ public class MyTimeOneUitl {
      */
     public void start(TextView tv) {
         this.mTimeView = tv;
-
         number = 0;
         restart();
     }

@@ -10,7 +10,31 @@
     <TextView
         android:id="@+id/tv_time"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:gravity="center"
         android:text="2222" />
+
+    <Button
+        android:id="@+id/btn_resteat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="重新" />
+
+    <Button
+        android:id="@+id/pause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="暂停" />
+
+    <Button
+        android:id="@+id/cancle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="取消" />
+
+    <Button
+        android:id="@+id/contile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="继续" />
 </LinearLayout>
