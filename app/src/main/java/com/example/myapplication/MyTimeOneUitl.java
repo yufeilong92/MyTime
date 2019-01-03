@@ -46,8 +46,6 @@ public class MyTimeOneUitl {
     }
 
     public static long getNubmer() {
-        if (number * 1000 >= MAX_TIME)
-            return MAX_TIME;
         return number * 1000;
     }
 
